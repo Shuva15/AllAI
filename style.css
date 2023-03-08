@@ -1,0 +1,26 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    width: 100px;
+    
+}
+
+nav {
+    padding: 50px;
+}
+.nav_link {
+    
+}
+
+.all-pages {
+    display: flex;
+}
