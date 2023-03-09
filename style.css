@@ -34,26 +34,44 @@ nav {
     padding: 20px;
 }
 
-.intro_part > p {
+.intro-part > p {
     padding-left: 20px;
 }
 
-.intro_part > button {
+.intro-part > button {
     margin-left: 140px;
 }
 
 #title {
     padding-left: 100px;
 }
-.intro_part {
+.intro-part {
    height: 350px;
    padding-top: 40px;
 }
 
+.second-main > h3 {
+    text-align: center;
+    background-color: aquamarine;
+    margin: auto;
+    padding-top: 50px;
+}
 .all-pages {
+    background-color: aquamarine;
+    padding-bottom: 60px;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-.all_pages > a {
-    display: flex
+.all-pages> a > img {
+    flex: 1;
+    width: 200px;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.all-pages > a > p {
+    text-align: center;
+    margin: auto;
 }
